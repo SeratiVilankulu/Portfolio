@@ -7,44 +7,57 @@
 
 html,
 body {
+	font-family: var(--font-body);
+	background-color: var(--color-primary);
 	margin: 0;
 	padding: 0;
+	height: 100vh;
 }
 
-:root {
+@theme {
 	/* Main Colors */
-	--primary-color: #f9f8f5;
-	--secondary-color: #c8e7fb;
-	--accent-color: #e5dbeb;
-	--background-color: #f3f8fa;
-	--text-color: #000000;
+	--color-primary: rgb(249, 248, 245);
+	--color-secondary: rgb(200, 231, 251);
+	--color-accent: rgb(229, 219, 235);
+	--color-background: rgb(243, 248, 250);
+	--color-text-primary: rgb(0, 0, 0);
 
 	/* Interaction Colors */
-	--button-bg: var(--primary-color);
-	--button-text: var(--text-color);
-	--button-hover-bg: #ffffff;
-	--button-hover-text: #ffffff;
+	--button-bg: var(--color-primary);
+	--button-text: var(--color-text);
+	--button-hover-bg: rgb(255, 255, 255);
+	--button-hover-text: rgb(255, 255, 255);
 
 	/* Cards */
-	--blue-card-bg: #c8e7fb;
-	--blue-card-text: #7fa0b5;
-	--purple-card-bg: #e5dbeb;
-	--purple-card-text: #987da5;
-	--orange-card-bg: #fae4d0;
-	--purple-card-text: #c28951;
+	--blue-card-bg: rgb(200, 231, 251);
+	--blue-card-text: rgb(127, 160, 181);
+	--purple-card-bg: rgb(229, 219, 235);
+	--purple-card-text: rgb(152, 125, 165);
+	--orange-card-bg: rgb(250, 228, 208);
+	--orange-card-text: rgb(194, 137, 81);
 
-	/* Site Fonts*/
-	--heading-text: "Inter", sans-serif;
-	--body-text: "Inter", "sans-serif";
-	--h1: 3.053rem; /* Approximately 49px */
-	--h2: 2.442rem; /* Approximately 39px */
-	--h3: 1.954rem; /* Approximately 31px */
-	--h4: 1.563rem; /* Approximately 25px */
-	--h5: 1.25rem; /* Approximately 20px */
-	--small: 12px; /* Approximately 13px */
-	--base-size: 16px; /* base font size */
+	/* Fonts */
+	--font-body: "Inter", "sans-serif";
+	--font-logo-font: "Newsreader", "serif";
 
-	/* Site Sizes (Spacing for margins, padding, etc.) */
+	/* Font Sizes */
+	--font-h1: 3.053rem; /* ≈49px */
+	--font-h2: 2.442rem; /* ≈39px */
+	--font-h3: 1.954rem; /* ≈31px */
+	--font-h4: 1.563rem; /* ≈25px */
+	--font-h5: 1.25rem; /* ≈20px */
+	--font-small: 0.75rem; /* 12px */
+	--font-base: 1rem; /* 16px */
+  --text-logo-size: 2rem; /* ≈40px */
+
+	/* Font Weights */
+	--font-weight-light: 300;
+	--font-weight-regular: 400;
+	--font-weight-medium: 500;
+	--font-weight-semibold: 600;
+	--font-weight-bold: 700;
+
+	/* Spacing */
 	--spacing-xxs: 0.25rem; /* 4px */
 	--spacing-xs: 0.5rem; /* 8px */
 	--spacing-sm: 1rem; /* 16px */
@@ -53,9 +66,27 @@ body {
 	--spacing-xl: 3rem; /* 48px */
 	--spacing-xxl: 4rem; /* 64px */
 
+	/* Sizes */
+	--size-xxs: 0.5rem; /* 8px */
+	--size-xs: 1rem; /* 16px */
+	--size-sm: 1.5rem; /* 24px */
+	--size-md: 2rem; /* 32px */
+	--size-lg: 3rem; /* 48px */
+	--size-xl: 4rem; /* 64px */
+	--size-xxl: 5rem; /* 80px */
+
 	/* Borders and Radius */
-	--border-radius: 12px;
+	--radius-sm: 5px;
+	--radius-md: 8px;
+	--radius-full: 12px;
 
 	/* Shadows */
 	--shadow-default: 0 1px 3px rgba(0, 0, 0, 0.3);
+
+	/* Transitions */
+	--transition-default: all 0.3s ease;
+	--transition-fast: all 0.15s ease;
+	--transition-slow: all 0.5s ease;
+	--transition-ease-fluid: cubic-bezier(0.3, 0, 0, 1);
+	--transition-ease-snappy: cubic-bezier(0.2, 0, 0, 1);
 }
