@@ -1,12 +1,16 @@
 import React from "react";
-import ProfilePicture from "../../public/images/portfolio_image.png";
+import ProfilePicture from "/images/portfolio_image.png";
 import Slider from "./slider.jsx";
 
 function Home() {
 	return (
-		<main id="home">
+		<main id="home" className="relative top-2">
 			<div className="flex flex-col items-center justify-center ">
-				<img src={ProfilePicture} alt="Portfolio image" className="py-2" />
+				<img
+					src={ProfilePicture}
+					alt="Portfolio image"
+					className="py-2 h-[20rem]"
+				/>
 				<h1 className="text-center text-text-primary font-medium text-size-md">
 					Software Developer
 				</h1>

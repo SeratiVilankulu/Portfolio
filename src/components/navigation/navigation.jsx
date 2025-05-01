@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-scroll";
-import moon from "../../public/images/Moon.png";
+import moon from "/images/Moon.png";
 
 function navigation() {
 	return (
