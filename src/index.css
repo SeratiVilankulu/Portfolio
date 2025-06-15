@@ -31,12 +31,15 @@ body {
 	--button-hover-text: rgb(255, 255, 255);
 
 	/* Cards */
-	--blue-card-bg: rgb(200, 231, 251);
-	--blue-card-text: rgb(127, 160, 181);
-	--purple-card-bg: rgb(229, 219, 235);
-	--purple-card-text: rgb(152, 125, 165);
-	--orange-card-bg: rgb(250, 228, 208);
-	--orange-card-text: rgb(194, 137, 81);
+	--color-blue-card-bg: rgb(200, 231, 251, 0.5);
+	--color-blue-card-text: rgb(127, 160, 181);
+	--color-blue-button-bg: rgb(180, 220, 246);
+	--color-purple-card-bg: rgb(229, 219, 235, 0.5);
+	--color-purple-card-text: rgb(152, 125, 165);
+	--color-purple-button-bg: rgb(152, 125, 165);
+	--color-orange-card-bg: rgb(250, 228, 208, 0.5);
+	--color-orange-card-text: rgb(194, 137, 81);
+	--color-orange-button-bg: rgb(194, 137, 81);
 
 	/* Fonts */
 	--font-body: "Inter", "sans-serif";
