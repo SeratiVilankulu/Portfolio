@@ -28,11 +28,11 @@ const Modal = ({ openModal, onClose, experience }) => {
 								alt={experience?.company}
 								className="w-18 h-19"
 							/>
-							<h2 className="text-size-sm font-semibold text-text-primary mb-2">
+							<h2 className="text-size-xl font-semibold text-text-primary mb-2">
 								{experience?.company}
 							</h2>
 						</div>
-						<h3 className="text-md font-semibold text-text-primary mb-4">
+						<h3 className="text-size-lg font-semibold text-text-primary mb-4">
 							{experience?.title || "Trainee Software Developer"}
 						</h3>
 						<p className="mb-4">Role and Responsibilities</p>
@@ -40,7 +40,7 @@ const Modal = ({ openModal, onClose, experience }) => {
 							{experience?.content?.map((item, idex) => (
 								<li
 									key={idex}
-									className="py-2 text-text-secondary text-size-xs"
+									className="py-2 text-text-secondary text-size-sm"
 								>
 									{item.text}
 								</li>

@@ -11,10 +11,10 @@ function Home() {
 					alt="Portfolio image"
 					className="py-2 h-[20rem]"
 				/>
-				<h1 className="text-center text-text-primary font-medium text-size-md">
+				<h1 className="text-center text-text-primary font-medium text-size-3xl">
 					Software Developer
 				</h1>
-				<p className="text-center text-text-secondary font-regular py-4 px-2">
+				<p className="text-center text-text-secondary font-regular py-4 px-2 text-size-md">
 					A driven and detail-oriented individual <br />
 					with strong analytical skills and a <br />
 					passion for technology.

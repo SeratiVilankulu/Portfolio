@@ -6,10 +6,10 @@ function Slider() {
 	return (
 		<section className="relative w-[35rem] overflow-hidden">
 			{/* Left gradient */}
-			<div className="absolute top-0 left-0 z-10 h-full w-12 bg-gradient-to-r from-white to-transparent pointer-events-none" />
+			<div className="absolute top-0 left-0 z-10 h-full w-12 bg-gradient-to-r from-primary to-transparent pointer-events-none" />
 			{/* Right gradient */}
-			<div className="absolute top-0 right-0 z-10 h-full w-12 bg-gradient-to-l from-white to-transparent pointer-events-none" />
-			<div className="flex gap-5 w-full">
+			<div className="absolute top-0 right-0 z-10 h-full w-12 bg-gradient-to-l from-primary to-transparent pointer-events-none" />
+			<div className="flex gap-5 w-full my-5">
 				<motion.div
 					initial={{ x: 0 }}
 					animate={{ x: "-100%" }}
@@ -22,7 +22,7 @@ function Slider() {
 								<img
 									src={icon.image}
 									alt={icon.title}
-									className="p-2 h-12 shadow-sm rounded-sm"
+									className="p-2 h-16 shadow-sm rounded-sm"
 								/>
 							</div>
 						);
@@ -40,7 +40,7 @@ function Slider() {
 								<img
 									src={icon.image}
 									alt={icon.title}
-									className="p-2 h-12 shadow-sm rounded-sm"
+									className="p-2 h-16 shadow-sm rounded-sm"
 								/>
 							</div>
 						);
