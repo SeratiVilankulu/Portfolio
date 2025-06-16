@@ -25,7 +25,7 @@ export default [
 		],
 		startDate: "Feb 2024",
 		endDate: "Feb 2025",
-		image: "/images/SingularSystems2.png",
+		image: "/images/SingularSystems.png",
 		skillsColor: "bg-blue-button-bg",
 		background: "bg-blue-card-bg",
 	},
