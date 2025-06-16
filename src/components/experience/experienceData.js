@@ -1,7 +1,7 @@
 export default [
 	{
 		id: 1,
-    company: "Singular Systems",
+		company: "Singular Systems",
 		title: "Trainee Software Developer",
 		content: [
 			{
@@ -25,13 +25,13 @@ export default [
 		],
 		startDate: "Feb 2024",
 		endDate: "Feb 2025",
-		image: "/images/SingularSystems.png",
+		image: "/images/SingularSystems2.png",
 		skillsColor: "bg-blue-button-bg",
 		background: "bg-blue-card-bg",
 	},
 	{
 		id: 2,
-    company: "Integrove",
+		company: "Integrove",
 		title: "Enterprise Application Development Intern",
 		content: [
 			{
@@ -53,12 +53,13 @@ export default [
 		startDate: "Mar 2025",
 		endDate: "Apr 2025",
 		image: "/images/Integrove.png",
-		skillsColor: "bg-purple-button-bg",
-		background: "bg-purple-card-bg",
+
+		skillsColor: "bg-orange-button-bg",
+		background: "bg-orange-card-bg",
 	},
 	{
 		id: 3,
-    company: "FNZ",
+		company: "FNZ",
 		title: "Associate Analyst Developer",
 		content: [
 			{
@@ -77,7 +78,7 @@ export default [
 		startDate: "May 2025",
 		endDate: "Present",
 		image: "/images/FNZ.jpg",
-		skillsColor: "bg-orange-button-bg",
-		background: "bg-orange-card-bg",
+		skillsColor: "bg-purple-button-bg",
+		background: "bg-purple-card-bg",
 	},
 ];
