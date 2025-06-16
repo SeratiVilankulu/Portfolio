@@ -3,7 +3,7 @@ import experienceData from "./experienceData.js";
 import Modal from "./modals/modal.jsx";
 
 function Experience() {
-	const [openModal, setOpenModal] = useState(false);
+	const [openModal, setOpenModal] = useState(null);
 
 	// Function to handle popup modal logic
 	function openPopupModal(id) {
@@ -69,9 +69,10 @@ function Experience() {
 									</span>
 								</div>
 								<hr className="my-8 border-t-[rgb(233,233,233)] border-t border-solid" />
-								{/* Render modal for this experience if open */}
+								{/* Open modal for this experience when clicked */}
 								{openModal === experience.id && (
 									<Modal
+										openModal={openModal === experience.id}
 										onClose={() => setOpenModal(null)}
 										experience={experience}
 									/>
